@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UnityPlugin</string>
+    <string name="com_auth0_client_id">FLsR7bww6mKe6m2apSSdDhH7rsB794o0</string>
+    <string name="com_auth0_domain">dev--8x78t70.auth0.com</string>
+</resources>
