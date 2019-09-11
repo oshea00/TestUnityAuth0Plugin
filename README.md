@@ -44,8 +44,9 @@ MIT
 
 ## Suggested Attribution
 This work is by Mike O'Shea [@oshea00](https://twitter.com/oshea00)
-oshea00@gmail.com
-[www.th2code.com](https://www.th2code.com)
+
+- oshea00@gmail.com
+- [www.th2code.com](https://www.th2code.com)
 
 
 
