@@ -1,16 +1,17 @@
-**/*.iml
-**/.gradle
-**/local.properties
-**/.idea/caches
-**/.idea/libraries
-**/.idea/modules.xml
-**/.idea/workspace.xml
-**/.idea/navEditor.xml
-**/.idea/assetWizardSettings.xml
-**/.DS_Store
-**/build
-**/captures
-**/.externalNativeBuild
+UnityLib/*.iml
+UnityLib/.gradle
+UnityLib/local.properties
+UnityLib/.idea/caches
+UnityLib/.idea/libraries
+UnityLib/.idea/modules.xml
+UnityLib/.idea/vcs.xml
+UnityLib/.idea/workspace.xml
+UnityLib/.idea/navEditor.xml
+UnityLib/.idea/assetWizardSettings.xml
+UnityLib/.DS_Store
+UnityLib/build
+UnityLib/captures
+UnityLib/.externalNativeBuild
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore

@@ -11,7 +11,6 @@ be easily incorporated into Unity applications that need OAuth authentication/au
 # Android / Unity
 
 The example Unity application here shows how to use the native Android plugin/wrapper for Auth0.
-(Note: link to sources for the plugin will be added here).
 
 This will not function out-of-the-box. There are two files that need to have developer-spcific 
 settings filled in. These are:
@@ -21,6 +20,17 @@ settings filled in. These are:
 Note: Yes, because the current Auth0 SDK for Android makes use of gradle placeholders, the gradle build
 will not complete successfully without these. For now, this means having the values in two places in the
 code (until we figure out a better way).
+
+# Android / Unity Plugin
+
+The UnityLib forlder contains the Android Studio project for the Unity Android Plugin which wraps
+the auth0 Anroid SDK.
+
+This requires developer-specific changes to the following:
+* UnityLib/unityplugin/build.gradle - replace values in "manifestPlaceholders" to match your Auth0 setup.
+(see Note above - the placeholders are required for the plugin build to succeed)
+
+Once built, the resulting aar file can be copied into the Unity project Assets/Plugin/Android folder.
 
 # More Info
 
