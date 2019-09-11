@@ -23,7 +23,7 @@ code (until we figure out a better way).
 
 # Android / Unity Plugin
 
-The UnityLib forlder contains the Android Studio project for the Unity Android Plugin which wraps
+The UnityLib folder contains the Android Studio project for the Unity Android Plugin which wraps
 the auth0 Android SDK.
 
 This requires developer-specific changes to the following:
@@ -37,5 +37,15 @@ Once built, the resulting aar file can be copied into the Unity project Assets/P
 I'm working on a more detailed HOW-TO article regarding the Unity build settings and the corresponding
 Auth0 account settings for the API and application settings to match. Watch this space. I will fill in the
 details soon.
+
+## License
+
+MIT
+
+## Suggested Attribution
+This work is by Mike O'Shea [@oshea00](https://twitter.com/oshea00)
+
+
+
 
 
