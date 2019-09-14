@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.limpidfox.unitylib">
 
     <application
@@ -15,6 +16,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.auth0.android.provider.RedirectActivity"
+            android:exported="true" tools:node="replace">
+            <intent-filter android:autoVerify="true"
+                tools:targetApi="m">
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="dev--8x78t70.auth0.com"
+                    android:pathPrefix="/android/${applicationId}/callback"
+                    android:scheme="calcs" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

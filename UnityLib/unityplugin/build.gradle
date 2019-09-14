@@ -2,15 +2,12 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 28
-
-
     defaultConfig {
         minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        manifestPlaceholders = [auth0Domain: "dev--8x78t70.auth0.com", auth0Scheme: "calcs"]
     }
 
     buildTypes {
